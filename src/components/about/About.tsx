@@ -51,16 +51,16 @@ const About = () => {
                     I am big fanatic of the LaTeX markup language. I have taken class notes 
                     in real-time with it for most of my classes at McGill and used it to 
                     write all of my school work. My most notable project is the Notes for
-                    MATH 314 (Advanced Calculus), a document that was featured to the class
+                    <a href="https://drive.google.com/file/d/1i4TUjptsXEAu-IUbsBoAoNmuzxamxvUL/view?usp=sharing" target="_blank" >MATH 314 (Advanced Calculus)</a>, a document that was featured to the class
                     by my teacher.
                 </span>
-                <div className={styles.latexContainer}>
+                {/* <div className={styles.latexContainer}>
                     <h2>
                         LaTeX 
                     </h2>
                     <hr />
                     <LatexFolders />
-                </div>
+                </div> */}
             </div>
         </Element>
     );
